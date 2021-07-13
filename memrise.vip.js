@@ -1,9 +1,3 @@
-http-response ^https:\/\/api\.memrise\.com\/.+\/(me\/$|dashboard\/$|leaderboards\/following\/) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/memrise.vip.js,script-update-interval=0
-
-
-api.memrise.com
-
-
 let obj = JSON.parse($response.body);
 let url = $request.url;
 const cons1 = "me/";
