@@ -1,4 +1,3 @@
-http-response ^https:\/\/receipt-validator\.herewetest\.com\/apple\/verifyTransaction$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/speak&translate.js,script-update-interval=0
 var obj = JSON.parse($response.body);
 
 receipt-validator.herewetest.com
