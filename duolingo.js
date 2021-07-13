@@ -1,3 +1,8 @@
+?
+
+duolingo-leaderboards-prod.duolingo.com
+
+
 var body = $response.body;
 var url = $request.url;
 var obj = JSON.parse(body);
@@ -19,4 +24,3 @@ obj['active']['contest']['registration_end'] = '2099-11-03T00:00:00Z'
 obj['active']['contest']['registration_state'] = 'OPEN'
 body = JSON.stringify(obj);
 $done({body});
-© 2021 GitHub, Inc.
