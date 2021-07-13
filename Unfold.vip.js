@@ -1,8 +1,3 @@
-http-response ^https:\/\/api\.unfold\.app\/v1\/ios\/receipts$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/Unfold.vip.js,script-update-interval=0
-
-api.unfold.app
-
-
 var obj = JSON.parse($response.body);
 
 obj = {
