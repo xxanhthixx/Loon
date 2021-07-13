@@ -1,7 +1,3 @@
-http-response ^https:\/\/dayone\.me\/api\/(users|v2\/users\/(account-status|receipt))$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/dayone.surge.js,script-update-interval=0
-
-dayone.me
-
 if ($response.status == 200) {
   if ($request.url.endsWith("account-status")) {
 $done({body: JSON.stringify({
