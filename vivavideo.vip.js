@@ -1,6 +1,6 @@
-http-response ^https:\/\/viva-asia1\.vvbrd\.com\/api\/rest\/u\/vip requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/vivavideo.vip.js,script-update-interval=0
+#http-response ^https:\/\/viva-asia1\.vvbrd\.com\/api\/rest\/u\/vip requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/vivavideo.vip.js,script-update-interval=0
 
-host name = viva-asia1.vvbrd.com
+#host name = viva-asia1.vvbrd.com
 
 
 var obj = JSON.parse($response.body);
