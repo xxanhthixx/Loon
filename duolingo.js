@@ -1,9 +1,5 @@
-?
 
-duolingo-leaderboards-prod.duolingo.com
-
-
-var body = $response.body;
+ar body = $response.body;
 var url = $request.url;
 var obj = JSON.parse(body);
 obj['num_sessions_remaining_to_unlock'] = 0;
