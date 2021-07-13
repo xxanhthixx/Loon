@@ -1,9 +1,3 @@
-
-http-response ^https:\/\/subs\.platforms\.team\/apple\/verifyTransaction$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/productive.js,script-update-interval=0
-
-subs.platforms.team
-
-
 var obj = JSON.parse($response.body);
 
 obj= {
