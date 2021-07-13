@@ -1,8 +1,3 @@
-/*surge: *http-response 
-^https:\/\/sk\.ulysses\.app\/api\/v1\/itunes_receipt_verify$ requires-body=1,max-size=0,script-path=ulysses.js
-
-
-//mitm: sk.ulysses.app
 
 var body = $response.body;
 var obj = JSON.parse(body);
