@@ -1,8 +1,3 @@
-http-response ^https:\/\/apic\.musixmatch\.com\/ws\/.*\/config\.get requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/musixmatch.miao.js,script-update-interval=0
-
-apic.musixmatch.com
-
-
 let obj=JSON.parse($response.body);
 let usr=obj.message.body;
 usr.app_config.trial=false;
