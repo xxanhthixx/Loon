@@ -1,7 +1,3 @@
-?
-
-hostname = api.shred.app
-
 var obj = JSON.parse($response.body);
 
 obj= {
