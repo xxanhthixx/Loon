@@ -1,4 +1,3 @@
-@@ -0,0 +1,34 @@
 var obj = JSON.parse($response.body);
 
 obj= {
